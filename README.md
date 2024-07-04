@@ -28,7 +28,7 @@ $ ./a.out
 
 ### Pythonとの比較
 
-全く同じ計算をPythonのNumPyで実行したい場合、以下のようにまずNumPyを使えるようにする。
+全く同じ計算をPythonのNumPyで実行して比較したい場合、以下のようにまずNumPyを使えるようにする。
 
 ```sh
 python3 -m venv myenv
@@ -48,4 +48,3 @@ $ python3 sample.py
 ### LICENSE
 
 MIT
-
