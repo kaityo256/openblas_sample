@@ -12,4 +12,4 @@ b.out: parallel.cpp
 	g++ $(CXXFLAGS) $< $(LDFLAGS) -lblas -o $@
 
 clean:
-	rm -f a.out
+	rm -f a.out b.out
