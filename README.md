@@ -31,8 +31,8 @@ $ ./a.out
 全く同じ計算をPythonのNumPyで実行して比較したい場合、以下のようにまずNumPyを使えるようにする。
 
 ```sh
-python3 -m venv myenv
-source myenv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 python3 -m pip install --upgrade pip
 python3 -m pip install numpy
 ```
